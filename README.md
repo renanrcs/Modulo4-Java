@@ -1,8 +1,8 @@
-# Variáveis, Tipos de dados e Operadores Matematicos em Java
+# Variáveis
 ### Objetivos
 > - Entender o que são variaveis
 > - Saber como criar variáveis
-> 
+
 ### Conceituação
 **VARIAVÉL** é um espaço na memória do computador, onde se pode guardar valores
 
@@ -33,3 +33,18 @@
 > - Nomes expressivos;
 > - Notação camelo;
 > - Quando constante(final maiúscula e separada por "_";
+
+# Tipos de Dados
+### Objetivos
+> - Entender o que são tipos de dados
+> - Saber como e quando usar cada um
+
+### Conceituação
+**TIPOS DE DADOS**  São os valores e consequentemente operações que as variaveis podem assumir e sofrer, respectivamente.
+
+### Tipificação:
+> - Estática(*forte*) vs Dinâmica(*fraco*)
+> - Primitivo vs Composto
+
+
+
