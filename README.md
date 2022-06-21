@@ -46,5 +46,11 @@
 > - Estática(*forte*) vs Dinâmica(*fraco*)
 > - Primitivo vs Composto
 
+### Opções de tipos:
+> - Textual
+> - Numeral
+> - Lógico
+> - Objeto
+
 
 
