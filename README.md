@@ -52,5 +52,6 @@
 > - Lógico
 > - Objeto
 
-
+### Boas Práticas
+> - Usar de forma adequada cada tipo de dado para cada informação.
 
