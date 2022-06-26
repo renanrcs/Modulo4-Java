@@ -15,15 +15,24 @@ public class OrdemInversa {
 		
 		for(int i = 0; i < vetor1.length; i++) {
 			vetor1[i] = rd.nextInt(9);
-			System.out.println(vetor1[i]);
 		}
-		//Tentar resolver
-		System.out.println("==========");
+
 		int count = 0;
 		for(int i = vetor1.length-1; i >= 0 ; i--) {
-			vetorInverso[i] = vetor1[count];
-			System.out.println(vetorInverso[i]);
+			int num = vetor1[count];
+			vetorInverso[i] = num;
 			count++;
+		}
+		
+		for(int i: vetor1) {
+			System.out.print(i + " ");
+		}
+		
+		System.out.println(" ");
+		System.out.println("Vetor Inverso: ");
+		
+		for(int i: vetorInverso) {
+			System.out.print(i + " ");
 		}
 
 	}
