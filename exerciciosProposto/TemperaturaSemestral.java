@@ -57,21 +57,23 @@ public class TemperaturaSemestral {
 			System.out.println(temperatura);
 		}
 		
-		int mediaSemestral = soma/6;
-		
+		Integer mediaSemestral = soma/6;
+		Iterator<Mes> iterator = temperaturas.iterator();
 		//Tentei fazer o exercicio usando classe
 		//Mas não consegui fazer a comparação para mostrar as temp acima da media
-		while(count > 0) {
-			if(true) {
-				
+		while(iterator.hasNext()) {
+			Integer tempAlta = iterator.next().getTemperatura();
+			if(tempAlta > mediaSemestral) {
+				System.out.println("Temperatura do mes de"+ iterator.next().getNome() +
+						" acima da media: " + tempAlta);
 			}
 		}
 		
-		System.out.println(mediaSemestral);
+		System.out.println("Media Semestral: " + mediaSemestral);
 	}
 }
 
-class Mes implements Comparable<Mes>{
+class Mes{
 	private String nome;
 	private Integer temperatura;
 	
@@ -94,19 +96,6 @@ class Mes implements Comparable<Mes>{
 				"nome='" + nome + '\'' +
 				", temperatura=" + temperatura +
 				'}';
-	}
-	
-	public int compareTo(Mes mes) {
-		return this.getTemperatura().compareTo(mes.getTemperatura());
-	}
-}
-
-class ComparatorTemperatura implements Comparator<Mes>{
-
-	@Override
-	public int compare(Mes m1, Mes m2) {
-
-		return Integer.compare(m1.getTemperatura(), m2.getTemperatura());
 	}
 	
 }
