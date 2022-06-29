@@ -70,7 +70,7 @@ public class MetodoSet {
         System.out.println(notas2);
 
         System.out.println("Exiba todas as notas na ordem crescente: ");
-        Set<Double> notas3 = new TreeSet<>(notas2);
+        Set<Double> notas3 = new TreeSet<>(notas2); //Organiza de acordo com a ordem natural dos elementos
         System.out.println(notas3);
 
         System.out.println("Apague todo o conjunto");
