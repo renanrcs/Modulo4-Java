@@ -36,7 +36,7 @@ public class Exercicio2List {
 		
 		switch (numRespostas) {
 		case 2: 
-			System.out.println("Suspeita");
+			System.out.println("Suspeita");	
 			break;
 		case 3: 
 		case 4:
